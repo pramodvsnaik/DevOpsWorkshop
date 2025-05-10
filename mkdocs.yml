@@ -16,5 +16,12 @@ markdown_extensions:
       permalink: true
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.snippets
 nav:
   - Home: index.md
+  - DevOps:
+      - Overview: guides/overview.md
+      - CI/CD:
+          - Overview: guides/overview.md
+          - GitHub Actions: guides/github-actions.md
+          - Jenkins: guides/jenkins.md
