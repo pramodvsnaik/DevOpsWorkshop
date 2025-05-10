@@ -1,0 +1,21 @@
+site_name: DevOps Workshop
+site_url:  https://pramodvsnaik.github.io/DevOpsWorkshop   # keep blank until you know the URL
+repo_url: https://github.com/pramodvsnaik/DevOpsWorkshop
+repo_name: GitHub
+theme:
+  name: material
+  palette:
+    scheme: default     # auto‑light/dark
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - How‑to: how-to.md          # create as many pages as you like
